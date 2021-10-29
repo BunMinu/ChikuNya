@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ChikuNya</title>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width-device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-image:
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #A3E4D7;
+    text-align: center;
+    padding: 14px 16px;
+    text-d
+ecoration: none;
+}
+
+.topnav a.active {
+    background-color: #90FEEA;
+    color: black;
+}
+.topnav a:hover {
+    background-color: #5DADE2;
+    color: white;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    background-color: white;
+    color: black;
+
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and(max-width) 600px {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-asign: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+}  
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>ChikuNya</h1>
+</div>
+
+<div class="topnav">
+  <a class="active" href="#">Home</a>
+  <a href="#">Account</a>
+ <a href="#">Settings</a>
+ <input type="text" placeholder="Search. .">
+</div> 
+
+<div class="row">
+    <div class="column side">
+        <h2>Test</h2>
+    </div>
+
+    <div class="column middle">
+        <h2>Test</h2>
+    </div> 
+
+    <div class="column side">
+        <h2>Test</h2>
+    </div>
+
+</div>
+
+</body>
+<html>
